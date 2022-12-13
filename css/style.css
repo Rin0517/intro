@@ -1,0 +1,70 @@
+﻿@import url(sanitize.css);
+body {
+    background-color: #ffffff; 
+    padding: 20px; 
+}
+.content{
+    background-color: rgba(123, 221, 228, 0.507);
+    width: 800px;
+    margin: 10px auto;
+    border: 3px solid rgba(86, 228, 238, 0.774);
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+.container {
+    max-width: 650px; /* 最大幅 */
+    /* margin: 0 auto; */ /* 左右の余白を auto にして、左右中央揃えに */
+    box-shadow: 0 0 20px rgba(0, 0, 0, .9); /* 影をつける */
+    background-color: rgb(255, 255, 255); /*背景色*/
+    border: 1px solid rgb(133, 199, 211);
+    padding: 0;
+}
+header{
+    background-color: #2f3ec0;
+    padding: 10px; /* 要素内余白を 10px に */
+}
+header h1 {
+    font-size: xx-large;
+    margin: 20px;
+    color:orange;
+}
+h2{
+    text-align: center;
+    font-size: large;
+    margin: 20px;
+}
+p {
+    text-align: center;
+    font-size: small;
+}
+img{
+    max-width: 800px;
+}
+.preface{
+    text-align: center;
+    margin: 5px;
+    font-size: 50px;
+}
+.preface p{
+    text-align: center;
+    margin-top: 20px;
+}
+.sankou{
+    text-align: center;
+}
+ul{
+    text-align: center;
+    margin: 0;
+}
+.information h3{
+    padding: auto;
+    background-color: #4fa6c9;
+    margin: 6px 0 3px 0;
+    font-size: large;
+    color:gold;
+    border: 1px solid #000000;
+}
+.information p{
+    font-size: 15px;
+}
